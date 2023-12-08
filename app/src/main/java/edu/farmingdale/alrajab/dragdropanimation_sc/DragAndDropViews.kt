@@ -25,6 +25,8 @@ class DragAndDropViews : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDragAndDropViewsBinding.inflate(layoutInflater)
 
+
+
         setContentView(binding.root)
         setBorderColor(binding.holder01, Color.RED)
         setBorderColor(binding.holder02, Color.RED)
